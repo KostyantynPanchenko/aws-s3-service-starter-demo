@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'net.ukr.yougetit'
-version = '1.0.0'
+version = '1.0.1'
 sourceCompatibility = '17'
 
 repositories {
@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'net.ukr.yougetit:aws-s3-services-starter:1.0.0'
+    implementation 'net.ukr.yougetit:aws-s3-services-starter:1.0.1'
 }
 
 tasks.named('test') {
